@@ -1,16 +1,53 @@
-# todoapp
+# TodoApp - Flutter
 
-A new Flutter project.
+## Project Overview
+**TodoApp** is a Flutter application that demonstrates three different state management approaches: **Provider**, **GetX**, and **Cubit (Bloc)**. The app allows users to manage their tasks efficiently with features like task addition, deletion, and editing, as well as separating completed tasks from pending ones.
 
-## Getting Started
+All user authentication (login & sign up) is powered by **Firebase Authentication**, and tasks are stored and synced in **Firebase Realtime Database**.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Authentication**
+    - Login and Sign Up using Firebase Auth
+    - Persistent user sessions
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Todo Lists**
+    - Three separate implementations using **Provider**, **GetX**, and **Cubit**
+    - Add, edit, and delete tasks
+    - Mark tasks as completed or pending
+    - Real-time synchronization with Firebase Realtime Database
+
+- **UI/UX**
+    - Clean and responsive Flutter UI
+    - Consistent design across all three state management methods
+
+---
+
+## Screens
+
+1. **Welcome Screen** – Entry point for the app
+2. **Login Screen** – Login using Firebase Authentication
+3. **Sign Up Screen** – Create new account with Firebase Auth
+4. **Todo Lists** – Three implementations:
+    - Provider Todo List
+    - GetX Todo List
+    - Cubit (Bloc) Todo List
+
+---
+
+## Tech Stack
+
+- Flutter (Dart)
+- State Management: **Provider**, **GetX**, **Cubit (Bloc)**
+- Firebase Authentication
+- Firebase Realtime Database
+
+---
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/username/todoapp.git
